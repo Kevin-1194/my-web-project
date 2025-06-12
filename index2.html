@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shema Kevin | Creative Web Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #000, #1a1a1a);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.9);
+      padding: 40px 20px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, #fff, #ccc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ccc;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    main {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #fff;
+      border-left: 5px solid #00e0ff;
+      padding-left: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 800px;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #444;
+      border-radius: 16px;
+      padding: 30px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+      border: 2px solid #00e0ff;
+    }
+
+    a {
+      color: #00e0ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #111;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Shema Kevin</h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>About Me</h2>
+      <p>Hello, I'm <strong>Shema Kevin</strong> — a passionate and creative web developer who transforms ideas into digital experiences. I specialize in crafting responsive, visually stunning websites that combine design with performance.</p>
+    </section>
+
+    <section id="project">
+      <h2>Featured Project</h2>
+      <div class="project-card">
+        <p><strong>Interactive Portfolio Site</strong> — a sleek and responsive portfolio built with modern HTML, CSS, and JavaScript. It features smooth animations, accessible design, and elegant layouts.</p>
+        <img src="images/project-thumbnail.png" alt="Screenshot of Shema Kevin's project">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>📧 Email: <a href="mailto:shema.kevin@example.com">shema.kevin@example.com</a></p>
+      <p>🔗 LinkedIn: <a href="https://linkedin.com/in/shemakevin" target="_blank">linkedin.com/in/shemakevin</a></p>
+      <p>💻 GitHub: <a href="https://github.com/shemakevin" target="_blank">github.com/shemakevin</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shema Kevin. Designed with ❤️ and code.</p>
+  </footer>
+</body>
+</html>
